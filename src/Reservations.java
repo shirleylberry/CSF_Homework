@@ -124,13 +124,4 @@ public class Reservations implements Comparable<Reservations>{
         }
         return availSeats;
     }
-
-    public ArrayList<Reservations> deleteRes(ArrayList<Reservations> x, String delName, int delTime){
-        for (Reservations i : x){
-            if(i.getName().equals(delName) && i.getTime() == delTime){
-                x.remove(i);
-            }
-        }
-        return x;
-    }
 }
