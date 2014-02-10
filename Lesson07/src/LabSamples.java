@@ -25,6 +25,7 @@ public class LabSamples {
             System.out.print("\nEnter {add/remove/contains} number: ");
             String command = consoleScanner.next();
             int value = consoleScanner.nextInt();
+
             if (command.equals("add")) {
                 list.insert(value);
             }

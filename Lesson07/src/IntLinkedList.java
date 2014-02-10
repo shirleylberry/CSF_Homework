@@ -58,7 +58,7 @@ public class IntLinkedList {
                 nextNode = node.getNextNode();
             }
         }
-    }
+    };
 
     public void print() {
         IntListNode node = firstNode;
